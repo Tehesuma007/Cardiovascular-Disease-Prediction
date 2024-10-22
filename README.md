@@ -57,7 +57,7 @@ This is where we will get different information about each of the features in ou
 - slope - the slope of the peak exercise ST segment <br/>
   * 0: Upsloping: better heart rate with excercise (uncommon) <br/>
   * 1: Flatsloping: minimal change (typical healthy heart) <br/>
-  * 2: Downslopins: signs of unhealthy heart <br/>
+  * 2: Downsloping: signs of unhealthy heart <br/>
 - ca - number of major vessels (0-3) colored by flourosopy <br/>
   * colored vessel means the doctor can see the blood passing through <br/>
   * the more blood movement the better (no clots) <br/>
