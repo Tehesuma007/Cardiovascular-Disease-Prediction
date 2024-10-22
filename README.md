@@ -30,9 +30,10 @@ This is where we will get different information about each of the features in ou
 
 **Let's Create a data dictionary**
 
--age = Patient age in years
--sex = (1 = male; 0 = female)
--cp = chest pain type
+-age - Patient age in years  return
+
+-sex - (1 = male; 0 = female)
+-cp - chest pain type
    *0: Typical angina: chest pain related decrease blood supply to the heart
    *1: Atypical angina: chest pain not related to heart
    *2: Non-anginal pain: typically esophageal spasms (non heart related)
