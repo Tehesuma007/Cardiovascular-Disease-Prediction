@@ -21,11 +21,11 @@ This notebook is a binary classification problem that utilizes various Python-ba
 - Matplotlib
 
 
-### 1.Problem Definition
+### 1. Problem Definition
 In a statement,
 Given clinical parameters about a patient, can we predict whether or not they have heart disease?
 
-### 2.Features
+### 2. Features
 This is where we will get different information about each of the features in our data
 
 **Let's Create a data dictionary**
@@ -67,5 +67,5 @@ This is where we will get different information about each of the features in ou
   * 7: reversable defect: no proper blood movement when excercising <br/>
 - target - have disease or not (0=absence, 1=presence) - the predicted attribute <br/>
 
-## 3.Data Overview and Exploration
+## 3. Data Overview and Exploration
 
