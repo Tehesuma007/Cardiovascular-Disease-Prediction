@@ -44,4 +44,28 @@ This is where we will get different information about each of the features in ou
    *above 200 is cause for concern <br/>
 - fbs - (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false) <br/>
    *>126' mg/dL signals diabetes <br/>
+- restecg - resting electrocardiographic results <br/>
+   *0: Nothing to note <br/>
+   *1: ST-T Wave abnormality <br/>
+         *can range from mild symptoms to severe problems <br/>
+         *signals non-normal heart beat <br/>
+   *2: Possible or definite left ventricular hypertrophy <br/>
+         *Enlarged heart's main pumping chamber <br/>
+- thalach - maximum heart rate achieved <br/>
+- exang - exercise induced angina (1 = yes; 0 = no) <br/>
+- oldpeak - ST depression induced by exercise relative to rest looks at stress of heart during excercise unhealthy heart will stress more <br/>
+- slope - the slope of the peak exercise ST segment <br/>
+  *0: Upsloping: better heart rate with excercise (uncommon) <br/>
+  *1: Flatsloping: minimal change (typical healthy heart) <br/>
+  *2: Downslopins: signs of unhealthy heart <br/>
+- ca - number of major vessels (0-3) colored by flourosopy <br/>
+  *colored vessel means the doctor can see the blood passing through <br/>
+  *the more blood movement the better (no clots) <br/>
+- thal - thalium stress result <br/>
+  *1,3: normal <br/>
+  *6: fixed defect: used to be defect but ok now <br/>
+  *7: reversable defect: no proper blood movement when excercising <br/>
+- target - have disease or not (0=absence, 1=presence) - the predicted attribute <br/>
+
+## 3.Data Overview and Exploration
 
