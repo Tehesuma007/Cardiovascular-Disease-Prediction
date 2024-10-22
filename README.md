@@ -29,10 +29,10 @@ Given clinical parameters about a patient, can we predict whether or not they ha
 This is where we will get different information about each of the features in our data
 
 **Let's Create a data dictionary**
-{
--age - Patient age in years
--sex - (1 = male; 0 = female)
--cp - chest pain type
+
+-age = Patient age in years
+-sex = (1 = male; 0 = female)
+-cp = chest pain type
    *0: Typical angina: chest pain related decrease blood supply to the heart
    *1: Atypical angina: chest pain not related to heart
    *2: Non-anginal pain: typically esophageal spasms (non heart related)
@@ -44,4 +44,4 @@ This is where we will get different information about each of the features in ou
    *above 200 is cause for concern
 -fbs - (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
    *>126' mg/dL signals diabetes
-}
+
