@@ -31,17 +31,17 @@ This is where we will get different information about each of the features in ou
 **Let's Create a data dictionary**
 
 -age - Patient age in years  <br/>
--sex - (1 = male; 0 = female)
--cp - chest pain type
-   *0: Typical angina: chest pain related decrease blood supply to the heart
-   *1: Atypical angina: chest pain not related to heart
-   *2: Non-anginal pain: typically esophageal spasms (non heart related)
-   *3: Asymptomatic: chest pain not showing signs of disease
--trestbps - resting blood pressure (in mm Hg on admission to the hospital) 
-   *anything above 130-140 is typically cause for concern
--chol - serum cholestoral in mg/dl
--serum = LDL + HDL + .2 * triglycerides
-   *above 200 is cause for concern
--fbs - (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
-   *>126' mg/dL signals diabetes
+-sex - (1 = male; 0 = female) <br/>
+-cp - chest pain type <br/>
+   *0: Typical angina: chest pain related decrease blood supply to the heart <br/>
+   *1: Atypical angina: chest pain not related to heart <br/>
+   *2: Non-anginal pain: typically esophageal spasms (non heart related) <br/>
+   *3: Asymptomatic: chest pain not showing signs of disease <br/>
+-trestbps - resting blood pressure (in mm Hg on admission to the hospital) <br/> 
+   *anything above 130-140 is typically cause for concern <br/>
+-chol - serum cholestoral in mg/dl <br/>
+-serum = LDL + HDL + .2 * triglycerides <br/>
+   *above 200 is cause for concern <br/>
+-fbs - (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false) <br/>
+   *>126' mg/dL signals diabetes <br/>
 
