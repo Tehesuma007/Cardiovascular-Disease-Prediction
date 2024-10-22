@@ -1,5 +1,3 @@
-# Cardiovascular-Disease-Prediction
-
 # **Title:** Cardiovascular Disease Prediction
 
 # **Overview:**
