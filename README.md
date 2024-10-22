@@ -45,8 +45,8 @@ This is where we will get different information about each of the features in ou
 - fbs - (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false) <br/>
    * >126' mg/dL signals diabetes <br/>
 - restecg - resting electrocardiographic results <br/>
-   ~ 0: Nothing to note <br/>
-   ~ 1: ST-T Wave abnormality <br/>
+   - 0: Nothing to note <br/>
+   - 1: ST-T Wave abnormality <br/>
          * can range from mild symptoms to severe problems <br/>
          * signals non-normal heart beat <br/>
    * 2: Possible or definite left ventricular hypertrophy <br/>
