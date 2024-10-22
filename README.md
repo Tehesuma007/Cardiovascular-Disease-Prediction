@@ -47,10 +47,10 @@ This is where we will get different information about each of the features in ou
 - restecg - resting electrocardiographic results <br/>
    - 0: Nothing to note <br/>
    - 1: ST-T Wave abnormality <br/>
-         * can range from mild symptoms to severe problems <br/>
-         * signals non-normal heart beat <br/>
-   * 2: Possible or definite left ventricular hypertrophy <br/>
-         * Enlarged heart's main pumping chamber <br/>
+         - can range from mild symptoms to severe problems <br/>
+         - signals non-normal heart beat <br/>
+   - 2: Possible or definite left ventricular hypertrophy <br/>
+         - Enlarged heart's main pumping chamber <br/>
 - thalach - maximum heart rate achieved <br/>
 - exang - exercise induced angina (1 = yes; 0 = no) <br/>
 - oldpeak - ST depression induced by exercise relative to rest looks at stress of heart during excercise unhealthy heart will stress more <br/>
