@@ -1,7 +1,8 @@
-# **Title:** Cardiovascular Disease Prediction
+# Title: Predicting Heart Disease Using Machine Learning
 
-## **Overview:**
-This notebook is a binary classification problem that utilizes various Python-based machine learning and data science libraries in an attempt to build a machine learning model that will be used to build a simple web application capable of predicting whether or not someone has heart disease based on their last clinical parameters. Below is the approach we are going to follow:
+## Overview:
+This is an end to end binary classification project that seeks to predict if a patient has heart disease or not based on medical attributes provided in the dataset.
+We are going to build our model using the following classifiers: Logistic Regression Classifier, KNeighbors Classifier and Random Forest Classifier
 
 ## Approach
 1. Problem definition
@@ -67,5 +68,60 @@ This is where we will get different information about each of the features in ou
   * 7: reversable defect: no proper blood movement when excercising <br/>
 - target - have disease or not (0=absence, 1=presence) - the predicted attribute <br/>
 
-## 3. Data Overview and Exploration
+### 3. Data Overview and Exploration
+The dataset contains medical data on patients, with each row representing a patient and each column representing a feature. A preliminary inspection revealed:
+- A mix of numerical and categorical data
+- No missing values, ensuring completeness
+- Some features with potential outliers (e.g., blood pressure)
 
+### 4. Data Cleaning and Feature Engineering
+We performed the following steps to prepare the data for modeling:
+- **Handling Missing Values**: No missing values were present.
+- **Scaling**: Continuous features like blood pressure, cholesterol, and glucose levels were scaled to standardize ranges.
+- **Feature Encoding**: Categorical variables were encoded to ensure compatibility with machine learning models.
+
+### 5. Data Visualization
+Data visualization helped uncover patterns and relationships within the data:
+- **Correlation Heatmap**: Showed relationships between features and identified key predictors like chest pain (`cp`) and maximum heart rate achieved (`thalach`).
+- **Cross-Tabulations**: Analyzed relationships between categorical variables (e.g., gender and disease prevalence).
+- **Histograms**: Displayed distributions of key features such as age, highlighting a focus on middle-aged and older individuals.
+
+### 6. Modeling
+We implemented several machine learning models to predict cardiovascular disease:
+- Logistic Regression  
+- Random Forest Classifier  
+- Gradient Boosting Classifier  
+- XGBoost  
+Each model was trained on the cleaned and processed data. Cross-validation was used to assess performance and mitigate overfitting.
+
+### 7. Hyperparameter Tuning
+Hyperparameter tuning was conducted using grid search. For the Random Forest and XGBoost models, we optimized:
+- Number of trees
+- Maximum depth of trees
+- Learning rate (for XGBoost)
+- Number of estimators
+- Maximum number of features  
+
+These optimizations improved the predictive accuracy of the models.
+
+### 8. Evaluation
+The models were evaluated using:
+- **Accuracy**: Proportion of correct predictions  
+- **Precision**: Ability to avoid false positives  
+- **Recall**: Ability to detect true positives  
+- **F1-Score**: Balance between precision and recall  
+
+The Random Forest model achieved the highest accuracy (~82%) and demonstrated balanced performance across precision and recall.
+
+### 9. Feature Importance
+Key features influencing predictions were identified using feature importance scores:
+- **Chest Pain (`cp`)**  
+- **Slope**  
+- **Maximum Heart Rate Achieved (`thalach`)**  
+
+These features align with medical knowledge, reinforcing the model's validity.
+
+---
+
+### Conclusion
+Our cardiovascular disease prediction model, particularly the Random Forest classifier, demonstrated robust performance. Key predictors like chest pain, maximum heart rate, and slope highlight the model's alignment with established medical insights. This tool has the potential to assist in early identification and prevention of cardiovascular disease, providing valuable support in healthcare decision-making.
